@@ -1,2 +1,0 @@
-Netflix; password123
-Spotify; hello123
