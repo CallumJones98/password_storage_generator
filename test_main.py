@@ -5,9 +5,9 @@ import pytest
 # Password Generator Class tests
 
 def test_passwordgen():
-  pg = PasswordGenerator(10)
+  pg = PasswordGenerator(8,10)
   password = pg.create()
-  assert len(password) == 10 #testing correct length of password e.g. 10 should return length of 10
+  assert len(password) >= 8 and len(password) <= 10
   
 @pytest.fixture
 def pwd_gen():

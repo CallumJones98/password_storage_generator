@@ -1,1 +1,11 @@
 test_file.txt
+# Ignore the encrypted vault data
+vault.dat
+
+# Ignore Python's internal cache files
+__pycache__/
+*.pyc
+
+# Ignore local environment settings
+.env
+.venv/
